@@ -1,0 +1,12 @@
+print("Big 3 One Rep Max Calculator")
+
+lift = input("What Lift Would You Like To Calculate (Bench Press, Squat, Deadlift): ")
+weight = int(input("What is your 5 rep max for this lift in kilograms?: "))
+
+def rm():
+    if lift == "Bench Press":
+        return str((weight * 1.1307) + 0.6998)
+    else:
+        return str((weight * 1.09703) + 14.2546)
+
+print("Your One Rep Max for " + lift + " is approximately " + str(rm()))
