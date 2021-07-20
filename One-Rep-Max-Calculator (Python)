@@ -9,4 +9,4 @@ def rm():
     else:
         return str((weight * 1.09703) + 14.2546)
 
-print("Your One Rep Max for " + lift + " is approximately " + str(rm()))
+print("Your One Rep Max for " + lift + " is approximately " + str(rm()) + " kgs !")
